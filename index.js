@@ -108,6 +108,33 @@ client.connect(err => {
                 res.send(admin.length > 0)
             })
     })
+
+    // Order Card
+    app.post('/orderCard', (req, res) => {
+        const email = req.body.email;
+        orderCollection.find({email: email})
+            .toArray((error, document) => {
+                console.log(document);
+                res.send(document);
+            })
+    })
+
+    // Service List
+    app.get('/service', (req, res) => {
+        serviceCollection.find({})
+            .toArray((error, document) => {
+                res.send(document);
+            })
+    })
+
+    // Review List
+    app.get('/reviewList', (req, res) => {
+        reviewCollection.find({})
+            .toArray((error, document) => {
+                res.send(document);
+            })
+    })
+
 });
 
 app.get('/', (req, res) => {
