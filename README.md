@@ -6,23 +6,26 @@
 
 ## Features:
 *   Service selling web app.
-*   Customer can buy  required services and give feedback.
-*   Admin can add services and see all order.
-*   Separate dashboard for admin and customer.
+*   Customer can buy  required services.
+*   Customer can give feedback.
+*   Admin can add services and see all orders.
+*   Separated dashboard for admin and customer.
 *   Store admin and customer information.
 
 
-## Front-end Technology:
+## Front-end Technology :
 *   React.js
 *   Bootstrap4
 *   Material-UI
+*   HTML5
 *   CSS3
+*   Firebase Hosting
 
-## Back-end Technology:
+## Back-end Technology :
 *   Node.js
 *   Express.js
-*   Firebase Authentication
 *   MongoDB
-*   Heroku
+*   Firebase Authentication
+*   Heroku Hosting
 
 **[FRONT END REPOSITORY](https://github.com/ImPias/creative-agency-client)**
